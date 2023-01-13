@@ -1,2 +1,5 @@
 # Numerical-descending-sorting
-Numerical sorting in descending order 
+
+[100, 1000, 10, 10000, 1].sort(function(a, b) {
+ return b - a;
+});
